@@ -304,7 +304,7 @@ with forecasting:
         
         #Model Configuration textbox
         model_config_training.subheader('Model Configuration')
-        user_selected_indicator_forecasting = model_config_training.selectbox('Choose economic indicator to explore furter', indicator_options_forecasting)
+        user_selected_indicator_forecasting = model_config_training.selectbox('Choose economic indicator to forecast', indicator_options_forecasting)
 
 
         #once an economic indicator is selected we should prompt the user to either analyze the data further or explore forecasting
